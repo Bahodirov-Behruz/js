@@ -2,7 +2,7 @@ var num1 = prompt("Iltimos birinchi sonni kiriting?");
 var opr = prompt("Iltimos ishorarani kiriting");
 var num2 = prompt("Iltimos ikkinchi sonni kiriting?");
 if (opr == "+") {
-  console.log(num1 + num2);
+  console.log( +num1 + +num2);
 } else if (opr == "-") {
   console.log(num1 - num2);
 } else if (opr == "*") {
