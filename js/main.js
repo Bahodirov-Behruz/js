@@ -59,11 +59,12 @@
 //     break;
 //     case "-"
 //     // console.log( num1 - num2);
-// } 
+// }
 let oy = prompt("Qidiryotgan oyning raqamini kiriting");
 switch (oy) {
   case "1":
     console.log("Yanvar");
+    break;
 }
 switch (oy) {
   case "2":
