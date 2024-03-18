@@ -65,48 +65,48 @@ switch (oy) {
   case "1":
     console.log("Yanvar");
     break;
-}
-switch (oy) {
   case "2":
     console.log("Fevral");
-}
-switch (oy) {
+    break;
   case "3":
     console.log("Mart");
-}
-switch (oy) {
+    break;
   case "4":
     console.log("Aprel");
-}
-switch (oy) {
+    break;
   case "5":
     console.log("May");
-}
-switch (oy) {
+    break;
   case "6":
     console.log("Iyun");
-}
-switch (oy) {
+    break;
   case "7":
     console.log("Iyul");
-}
-switch (oy) {
+    break;
   case "8":
     console.log("Avgust");
-}
-switch (oy) {
+    break;
   case "9":
     console.log("Sentyabr");
-}
-switch (oy) {
+    break;
   case "10":
     console.log("Oktyabr");
-}
-switch (oy) {
+    break;
   case "11":
     console.log("Noyabr");
-}
-switch (oy) {
+    break;
   case "12":
     console.log("Dekabr");
+    break;
+  default:
+    console.log("siz notugri raqam kiritdingiz");
 }
+
+// switch (oy) {
+//   case "11":
+//     console.log("Noyabr");
+// }
+// switch (oy) {
+//   case "12":
+//     console.log("Dekabr");
+// }
