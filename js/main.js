@@ -61,21 +61,21 @@
 //     // console.log( num1 - num2);
 // } 
 let oy = prompt("Qidiryotgan oyning raqamini kiriting");
-switch (month) {
+switch (oy) {
   case "1":
     console.log("Yanvar");
 }
 switch (oy) {
   case "2":
-    console.log("February");
+    console.log("Fevral");
 }
 switch (oy) {
   case "3":
-    console.log("March ");
+    console.log("Mart");
 }
 switch (oy) {
   case "4":
-    console.log("April");
+    console.log("Aprel");
 }
 switch (oy) {
   case "5":
@@ -83,29 +83,29 @@ switch (oy) {
 }
 switch (oy) {
   case "6":
-    console.log("Jun");
+    console.log("Iyun");
 }
 switch (oy) {
   case "7":
-    console.log("July");
+    console.log("Iyul");
 }
 switch (oy) {
   case "8":
-    console.log("August");
+    console.log("Avgust");
 }
 switch (oy) {
   case "9":
-    console.log("Sentober");
+    console.log("Sentyabr");
 }
 switch (oy) {
   case "10":
-    console.log("Oktober");
+    console.log("Oktyabr");
 }
 switch (oy) {
   case "11":
-    console.log("November");
+    console.log("Noyabr");
 }
 switch (oy) {
   case "12":
-    console.log("December");
+    console.log("Dekabr");
 }
