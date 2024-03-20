@@ -60,53 +60,61 @@
 //     case "-"
 //     // console.log( num1 - num2);
 // }
-let oy = prompt("Qidiryotgan oyning raqamini kiriting");
-switch (oy) {
-  case "1":
-    console.log("Yanvar");
-    break;
-  case "2":
-    console.log("Fevral");
-    break;
-  case "3":
-    console.log("Mart");
-    break;
-  case "4":
-    console.log("Aprel");
-    break;
-  case "5":
-    console.log("May");
-    break;
-  case "6":
-    console.log("Iyun");
-    break;
-  case "7":
-    console.log("Iyul");
-    break;
-  case "8":
-    console.log("Avgust");
-    break;
-  case "9":
-    console.log("Sentyabr");
-    break;
-  case "10":
-    console.log("Oktyabr");
-    break;
-  case "11":
-    console.log("Noyabr");
-    break;
-  case "12":
-    console.log("Dekabr");
-    break;
-  default:
-    console.log("siz notugri raqam kiritdingiz");
-}
-
+// let oy = prompt("Qidiryotgan oyning raqamini kiriting");
 // switch (oy) {
+//   case "1":
+//     console.log("Yanvar");
+//     break;
+//   case "2":
+//     console.log("Fevral");
+//     break;
+//   case "3":
+//     console.log("Mart");
+//     break;
+//   case "4":
+//     console.log("Aprel");
+//     break;
+//   case "5":
+//     console.log("May");
+//     break;
+//   case "6":
+//     console.log("Iyun");
+//     break;
+//   case "7":
+//     console.log("Iyul");
+//     break;
+//   case "8":
+//     console.log("Avgust");
+//     break;
+//   case "9":
+//     console.log("Sentyabr");
+//     break;
+//   case "10":
+//     console.log("Oktyabr");
+//     break;
 //   case "11":
 //     console.log("Noyabr");
-// }
-// switch (oy) {
+//     break;
 //   case "12":
 //     console.log("Dekabr");
+//     break;
+//   default:
+//     console.log("siz notugri raqam kiritdingiz");
 // }
+
+let str = "Aa ksca a knas amet aanvAAdkndA.";
+let text = 0;
+let box = "";
+let count = 0;
+
+while (count < str.length) {
+  if (str[count] == "a" || str[count] == "A") {
+    text++;
+    box += "$";
+  } else {
+    box += str[count];
+  }
+  count++;
+}
+console.log(text);
+console.log(box);
