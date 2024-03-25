@@ -157,12 +157,12 @@
 //   }
 // }
 
-let oper = prompt(" Ishorani kiriting");
-let num1 = +prompt("Sonni kiriting");
-let num2 = +prompt("Sonni kiriting");
-function calc(num1, oper, num2) {
+let opr = prompt(" Ishorani kiriting");
+let num1 = +prompt("Birinchi sonni kiriting");
+let num2 = +prompt("Ikkinchi sonni kiriting");
+function calc(num1, opr, num2) {
   let calc;
-  switch (oper) {
+  switch (opr) {
     case "+":
       calc = +num1 + +num2;
       return calc;
@@ -180,7 +180,7 @@ function calc(num1, oper, num2) {
       return calc;
   }
 }
-console.log(calc(num1, oper, num2));
+console.log(calc(num1, opr, num2));
 
 // <!-- let oper = prompt(" Ishorani kiriting");
 // let num1 = +prompt("Sonni kiriting");
