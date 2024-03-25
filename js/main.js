@@ -102,19 +102,101 @@
 //     console.log("siz notugri raqam kiritdingiz");
 // }
 
-let str = "Aa ksca a knas amet aanvAAdkndA.";
-let text = 0;
-let box = "";
-let count = 0;
+// let str = "Aa ksca a knas amet aanvAAdkndA.";
+// let text = 0;
+// let box = "";
+// let count = 0;
 
-while (count < str.length) {
-  if (str[count] == "a" || str[count] == "A") {
-    text++;
-    box += "$";
-  } else {
-    box += str[count];
+// while (count < str.length) {
+//   if (str[count] == "a" || str[count] == "A") {
+//     text++;
+//     box += "$";
+//   } else {
+//     box += str[count];
+//   }
+//   count++;
+// }
+// console.log(text);
+// console.log(box);
+
+// let str = "behruz";
+// let count = 0;
+// for (count < str.length) {
+// }
+
+// for ( behruz = 6; behruz > 0; behruz--) {
+//   console.log(behruz + " -behruz");
+// }
+// let num = 15;
+// for (; num < 31; num++){
+//   console.log(num)
+// }
+
+// let oper = prompt("Matematik amalni kiriting");
+// let num1 = +prompt("Son kiriting");
+// let num2 = +prompt("Son kiriting");
+
+// function calc(opp, num3, num4) {
+//   let calc;
+//   switch (opp) {
+//     case "+":
+//       calc = +num3 + +num4;
+//       return calc;
+//     case "-":
+//       calc = num3 - num4;
+//       return calc;
+//     case "*":
+//       calc = num3 * num4;
+//       return calc;
+//     case "/":
+//       calc = num3 / num4;
+//       return calc;
+//     default:
+//       calc = "bunaqangi amal mavjud emas";
+//       return calc;
+//   }
+// }
+
+let oper = prompt(" Ishorani kiriting");
+let num1 = +prompt("Sonni kiriting");
+let num2 = +prompt("Sonni kiriting");
+function calc(num1, oper, num2) {
+  let calc;
+  switch (oper) {
+    case "+":
+      calc = +num1 + +num2;
+      return calc;
+    case "-":
+      calc = num1 - num2;
+      return calc;
+    case "*":
+      calc = num1 * num2;
+      return calc;
+    case "/":
+      calc = num1 / num2;
+      return calc;
+    default:
+      calc = "Notug'ri amal yozildi";
+      return calc;
   }
-  count++;
 }
-console.log(text);
-console.log(box);
+console.log(calc(num1, oper, num2));
+
+// <!-- let oper = prompt(" Ishorani kiriting");
+// let num1 = +prompt("Sonni kiriting");
+// let num2 = +prompt("Sonni kiriting");
+// function calc(num1, oper, num2) {
+//   let calc;
+//   if (oper == "+") {
+//     calc = +num1 + +num2;
+//   } else if (oper == "-") {
+//     calc = num1 - num2;
+//   } else if (oper == "/") {
+//     calc = num1 * num2;
+//   } else if (oper == "*") {
+//     calc = num1 / num2;
+//   } else {
+//     calc = error;
+//   }
+//   return calc(num1, oper, num2);
+// } -->
