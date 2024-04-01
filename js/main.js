@@ -157,30 +157,30 @@
 //   }
 // }
 
-let opr = prompt(" Ishorani kiriting");
-let num1 = +prompt("Birinchi sonni kiriting");
-let num2 = +prompt("Ikkinchi sonni kiriting");
-function calc(num1, opr, num2) {
-  let calc;
-  switch (opr) {
-    case "+":
-      calc = +num1 + +num2;
-      return calc;
-    case "-":
-      calc = num1 - num2;
-      return calc;
-    case "*":
-      calc = num1 * num2;
-      return calc;
-    case "/":
-      calc = num1 / num2;
-      return calc;
-    default:
-      calc = "Notug'ri amal yozildi";
-      return calc;
-  }
-}
-console.log(calc(num1, opr, num2));
+// let opr = prompt(" Ishorani kiriting");
+// let num1 = +prompt("Birinchi sonni kiriting");
+// let num2 = +prompt("Ikkinchi sonni kiriting");
+// function calc(num1, opr, num2) {
+//   let calc;
+//   switch (opr) {
+//     case "+":
+//       calc = +num1 + +num2;
+//       return calc;
+//     case "-":
+//       calc = num1 - num2;
+//       return calc;
+//     case "*":
+//       calc = num1 * num2;
+//       return calc;
+//     case "/":
+//       calc = num1 / num2;
+//       return calc;
+//     default:
+//       calc = "Notug'ri amal yozildi";
+//       return calc;
+//   }
+// }
+// console.log(calc(num1, opr, num2));
 
 // <!-- let oper = prompt(" Ishorani kiriting");
 // let num1 = +prompt("Sonni kiriting");
@@ -200,3 +200,149 @@ console.log(calc(num1, opr, num2));
 //   }
 //   return calc(num1, oper, num2);
 // } -->
+
+// function user(name, age) {
+//   let bool = false;
+//   if (age > 18) {
+//     bool = true;
+//   }
+//   if (!Number(age)) {
+//     return "yosh xato kiritildi";
+//   }
+//   let obj = {
+//     name,
+//     age,
+//     gd: bool,
+//   };
+//   return obj;
+// }
+// console.log(user("Behruz", "20"));
+
+// let num3 = prompt("email");
+// let num2 = prompt("kod");
+// function calc(num2) {
+//   if ((num3 = "ggbfb")) {
+//     alert(num3 == true);
+//   }
+//   if ((num1 = "1234")) {
+//     alert(num2);
+//   } else {
+//     alert(error);
+//   }
+// }
+// calc(num3);
+
+// let pul = prompt("balans yechiladigan summa");
+// function user(sum, miqdor) {
+//   let obj = {
+//     sum,
+//     miqdor,
+//   };
+//   if (pul <= 800 && pul >= 100) {
+//     let result = confirm("pul yechilsinmi");
+//     if (result == true) {
+//       alert("pul miqdori yechildi");
+//     } else{
+//         alert(" pul miqdori yechilmadi")
+//     }
+//   } else if (pul > 800) {
+//     alert("yetarli mablag` mavjud emas");
+//   }
+
+//   return obj;
+// }
+// user();
+
+// function min(a, b) {
+//   if (a > b) {
+//     console.log("a katta");
+//   } else {
+//     console.log("b katta");
+//   }
+// }
+// min(7, 6)
+
+// function max(a, b) {
+//   if (a < b) {
+//     console.log("a katta");
+//   } else {
+//     console.log("b katta");
+//   }
+// }
+// max(7, 6)
+
+// let math = {
+//   resault: function (a, b) {
+//     if ((a, b)) {
+//       return Math.abs(a, b);
+//     } else if ((a, b)) {
+//       return Math.abs(a, b);
+//     }
+//   },
+// };
+
+// console.log(math.resault(-3, -5));
+
+// console.log(math.resault(-5, -3));
+
+// console.log(math.resault(1.23456, 7.89012));
+
+// function login() {
+//   let count = 1;
+//   while (count <= 3) {
+//     let email = prompt("Emailni kiriting:");
+//     let password = prompt("Parolni kiriting:");
+//     if (email === "gmail" && password === "1234") {
+//       alert(" Siz muvofaqiyatli ruyhatdan utdingiz");
+//       break;
+//     } else {
+//       confirm("Login yoki parol xato.");
+//     }
+
+//     count++;
+//   }
+// }
+// login();
+
+// let math = {
+//   min: function (a, b) {
+//     if (a > b) {
+//       return +b;
+//     } else if (a < b) return +a;
+//   },
+//   max: function (a, b) {
+//     if (a < b) {
+//       return +b;
+//     } else if (a > b) return +a;
+//   },
+//   pov: function (a, b) {
+//     return a ** b;
+//   },
+//   abs: function (a) {
+//     if (a >= 0) {
+//       return a;
+//     } else if ((a = a)) return -a;
+//   },
+// };
+
+// console.log(math.min(11, 10));
+// console.log(math.max(7, 6));
+// console.log(math.pov(4, 2));
+// console.log(math.abs(5));
+
+// let str =
+//   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, atque.";
+
+// function inc(str, includes) {
+//   for (i = 10; i <  str.length; i++) {
+//     if (includes == str[i]) {
+//       return i;
+//     }
+//   }
+
+// }
+
+// console.log(inc(str, "dolor"));
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!//
